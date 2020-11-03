@@ -1,3 +1,9 @@
+// ==================================================================
+// npm install --save-dev jest @types/jest @aws-cdk/assert
+// npm run build && npx jest
+// ==================================================================
+
+
 import { expect as expectCDK, haveResource } from '@aws-cdk/assert';
 import cdk = require('@aws-cdk/core');
 import * as lambda from '@aws-cdk/aws-lambda';
